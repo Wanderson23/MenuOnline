@@ -31,6 +31,14 @@ b {
     font-family: 'PoppinsMedium', 'Rubik', 'sans-serif';
 }
 
+.color-primary{
+    color: var(--color-primary);
+}
+
+a.navbar-brand{
+    margin-left: -25px;
+}
+
 .nav-link{
     color: var(--color-black) !important;
     padding-left: 35px !important;
@@ -60,4 +68,26 @@ b {
     margin-top: -8px;
     border-radius: 15px;
     padding: 6px;
+}
+
+.banner{
+    padding: 110px;
+    padding-bottom: 200px;
+}
+
+.text-bunner{
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.text-bunner h1{
+    color: var(--color-black);
+    font-size: 60px;
+}
+
+.text-bunner p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 20px;
 }
