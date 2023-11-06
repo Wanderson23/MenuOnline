@@ -186,7 +186,6 @@
                     </a>
                     <a id="menu-bebidas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('bebidas')">
                         <i class="fas fa-cocktail"></i>&nbsp; Bebidas
-                    </a>
                     <a id="menu-sobremesas" class="btn btn-white btn-sm mr-3" onclick="cardapio.metodos.obterItensCardapio('sobremesas')">
                         <i class="fas fa-ice-cream"></i>&nbsp; Sobremesas
                     </a>
@@ -400,6 +399,7 @@
             </div>
         </div>
 
+
         <div class="m-body">
 
             <div class="container">
@@ -509,7 +509,7 @@
 
                 </div>
 
-                <div id="resumoCarrinho" class="row mr-0 ml-0">
+                <div id="resumoCarrinho" class="row mr-0 ml-0 hidden">
                     <div class="col-12">
                         <p class="title-carrinho mt-4">
                             <b>Itens do pedido</b>
@@ -583,11 +583,11 @@
                     </p>
                 </div>
 
-                <a class="btn btn-yellow float-right" id="btnEtapaPedido">
+                <a onclick="cardapio.metodos.carregarEtapa(2)" class="btn btn-yellow float-right" id="btnEtapaPedido">
                     Continuar
                 </a>
 
-                <a class="btn btn-yellow float-right hidden" id="btnEtapaEndereco">
+                <a onclick="cardapio.metodos.carregarEtapa(3)" class="btn btn-yellow float-right hidden" id="btnEtapaEndereco">
                     Revisar pedido
                 </a>
 
@@ -595,7 +595,7 @@
                     Enviar pedido
                 </a>
 
-                <a class="btn btn-white float-right mr-3" id="btnVoltar">
+                <a onclick="cardapio.metodos.voltarEtapa()" class="btn btn-white float-right mr-3" id="btnVoltar">
                     Voltar
                 </a>
 
