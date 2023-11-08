@@ -16,6 +16,7 @@ cardapio.eventos = {
 
     init: () => {
         cardapio.metodos.obterItensCardapio();
+        cardapio.metodos.carregarBotãoReserva();
     }
 
 } 
@@ -508,6 +509,21 @@ cardapio.metodos = {
         }
 
     },
+
+    // carrega o link do botão 'reserva'
+    carregarBotãoReserva: () => {
+
+        var texto = 'Olá! Gostaria de fazer uma *reserva*';
+
+        let encode = encodeURI (texto);
+        let URL = `https://wa.me/${CELULAR_EMPRESA}?text=${encode}`;
+
+        $('#btnReserva').attr('href', URL);
+
+    },
+
+
+
 
 
 
