@@ -17,6 +17,7 @@ cardapio.eventos = {
     init: () => {
         cardapio.metodos.obterItensCardapio();
         cardapio.metodos.carregarBotãoReserva();
+        cardapio.metodos.carregarBotaoLigar();
     }
 
 } 
@@ -522,7 +523,29 @@ cardapio.metodos = {
 
     },
 
+    // carrega o botão de ligar
+    carregarBotaoLigar: () => {
 
+        $("#btnLigar").attr('href', `tel:${CELULAR_EMPRESA}`)
+
+    },
+
+    // abre o depoimento
+    abrirDepoimento: (depoimento) => {
+
+        $("#depoimento-1"). addClass('hidden');
+        $("#depoimento-2"). addClass('hidden');
+        $("#depoimento-3"). addClass('hidden');
+
+        $("#btnDepoimento-1"). removeClass('active');
+        $("#btnDepoimento-2"). removeClass('active');
+        $("#btnDepoimento-3"). removeClass('active');
+
+        $("#depoimento-" + depoimento).removeClass('hidden');
+        $("#btnDepoimento-" + depoimento).addClass('active');
+        
+
+    },
 
 
 
@@ -564,7 +587,7 @@ cardapio.metodos = {
 
 cardapio.templates = {
     item: `
-    <div class="col-3 mb-5">
+    <div class="col-3 mb-5 animated fadeInUp">
         <div class="card card-item" id="\${id}">
             <div class="img-produto">
                     <img src="\${img}" />

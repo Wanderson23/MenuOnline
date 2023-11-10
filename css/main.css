@@ -15,7 +15,7 @@
     --color-text: #4f4f4f;
     --color-text-out: #90908e;
     --color-primary: #ffbf00;
-    --color-secondary: #fff2cc;
+    --color-secondary: #fff2cc;  
     --color-white: #ffffff;
     --color-red: #e74c3c;
     --color-green: #2ecc71;
@@ -778,3 +778,4 @@ select.form-control {
     border-radius: 50px;
     margin-bottom: 10px ;
 }
+
