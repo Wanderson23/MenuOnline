@@ -135,8 +135,8 @@ a.navbar-brand {
 .btn-sm {
     padding: 9px 15px !important;
     border-radius: 15px !important;
-    font-size: 18px !important;
-    background-color: var(--color-white);
+    font-size: 15px !important;
+    background-color: var(--color-primary);
 }
 
 .btn-social { 

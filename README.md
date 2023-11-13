@@ -12,6 +12,7 @@
 
 Bem-vindo ao Menu Online Responsivo! Este projeto consiste em um menu web responsivo, desenvolvido utilizando HTML, CSS, JavaScript, Bootstrap e jQuery. Um cardápio online, com opções de menu e carrinho de compra. Ele proporciona uma experiência de navegação intuitiva em dispositivos de diferentes tamanhos, como desktops, tablets e smartphones.
 
+
 ## Tecnologias Utilizadas
 
 - HTML5
