@@ -9,7 +9,7 @@
 
 
 :root {
-    --color-background:#fffdf7;
+    --color-background:#fffdf1;
     --color-black: #212121;
     --color-black-heavy: #000;
     --color-text: #4f4f4f;
@@ -66,6 +66,7 @@ a.navbar-brand {
 
 .btn-icon {
     padding-right: 75px;
+    background-color: var(--color-white);
 }
 
 .btn-icon .icon {
@@ -89,11 +90,13 @@ a.navbar-brand {
     flex-direction: column;
     justify-content: center;
     margin-bottom: 60px;
+    
 }
 
 .text-banner h1 {
     color: var(--color-black);
     font-size: 60px;
+     
 }
 
 .text-banner p {
@@ -133,6 +136,7 @@ a.navbar-brand {
     padding: 9px 15px !important;
     border-radius: 15px !important;
     font-size: 18px !important;
+    background-color: var(--color-white);
 }
 
 .btn-social { 
@@ -157,11 +161,12 @@ a.navbar-brand {
 }
 
 .card {
-    border-radius: 20px;
+    border-radius: 30px;
     padding: 15px 20px;
     font-size: 20px;
     box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.2) !important;
     border: none !important;
+    background-color: var(--color-white);
 }
 
 .card-case {
