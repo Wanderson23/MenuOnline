@@ -15,11 +15,11 @@ Bem-vindo ao Menu Online Responsivo! Este projeto consiste em um menu web respon
 
 ## Tecnologias Utilizadas
 
-- HTML5
-- CSS3 (utilizando Flexbox e Grid para layouts responsivos)
-- JavaScript
-- [Bootstrap](https://getbootstrap.com/)
-- [jQuery](https://jquery.com/)
+- ![HTML5](https://img.shields.io/badge/-HTML5-232323?style=flat&labelColor=E34F26&logo=html5&logoColor=ffffff)
+- ![CSS3](https://img.shields.io/badge/-CSS3-232323?style=flat&labelColor=1572B6&logo=css3&logoColor=ffffff) - Utilizando Flexbox e Grid para layouts responsivos
+- ![JavaScript](https://img.shields.io/badge/-JavaScript-232323?style=flat&labelColor=000000&logo=javascript&logoColor=F7DF1E)
+- ![Bootstrap](https://img.shields.io/badge/-Bootstrap-232323?style=flat&labelColor=7952B3&logo=bootstrap&logoColor=ffffff)
+- ![Jquery](https://img.shields.io/badge/-Jquery-232323?style=flat&labelColor=7952B3&logo=jquery&logoColor=ffffff)
 
 ## Funcionalidades
 
